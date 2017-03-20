@@ -1,0 +1,67 @@
+.root{
+    -fx-font-size: 32px !important;
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+    -fx-background-image: url("/images/back3.jpg");
+
+}
+
+.label{
+    -fx-text-fill: black;
+}
+
+.label-title{
+    -fx-font-size: 160%;
+    -fx-text-fill: red;
+}
+
+.label-title-main{
+    -fx-font-size: 170%;
+    -fx-text-fill: red;
+}
+.label-middle{
+    -fx-font-size: 125%;
+}
+.button-label{
+    -fx-font-size: 125%;
+}
+
+.offline{
+    -fx-text-fill: red;
+}
+
+
+
+.full-button{
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-padding: 5;
+}
+
+.locked-button{
+    -fx-text-fill: #006464;
+    -fx-background-color: #ff0000;
+    -fx-padding: 5;
+}
+.mail-button{
+    -fx-image: url("/resources/images/button/email.png");
+
+}
+
+.empty-button{
+    -fx-padding: 5;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+.selected-toggle{
+    -fx-background-color: #DFB951;
+}
+.label-pickup{
+    -fx-font-size:120%;
+    -fx-text-fill: #C62526;
+}
+.pickup-user-info{
+    -fx-font-size: 130%;
+    -fx-text-fill: #C62526;
+}
